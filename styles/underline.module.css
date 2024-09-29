@@ -1,0 +1,64 @@
+.undercity,
+.underline {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    margin-left: 1dvw;
+    margin-right: 1dvw;
+    font-weight: 500;
+    font-size: clamp(1rem, 1rem + 0.5dvw, 3rem);
+    cursor: pointer;
+}
+
+.undercity {
+    color: rgb(70, 70, 70);
+}
+
+.undercity:hover {
+    color: rgba(67, 52, 28, 1);
+    transition: 0.3s;
+}
+
+.underline:hover {
+    color: rgba(255, 141, 0, 1);
+    transition: 0.3s;
+}
+
+.undercity::before,
+.undercity::after,
+.underline::before,
+.underline::after {
+    content: "";
+    position: absolute;
+    bottom: -1.5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffb997;
+    transition: width 0.3s ease-in-out;
+}
+
+.undercity::before,
+.undercity::after {
+    background-color: #a8a29e;
+}
+
+.undercity::before,
+.underline::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.undercity::after,
+.underline::after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.undercity:hover::before,
+.undercity:hover::after,
+.underline:hover::before,
+.underline:hover::after {
+    width: 100%;
+}
