@@ -2,26 +2,14 @@
 
 import React, { useState, ChangeEvent } from "react"
 import SectionHeading from "./section-heading"
-import SubmitButton from "./submit-button"
-import toast from "react-hot-toast"
+
 import { motion } from "framer-motion"
 import { useSectionInView } from "@/lib/hooks"
-import { sendEmail } from "@/actions/sendEmail"
 import { useTheme } from "@/context/theme-context"
 import { BsLinkedin } from "react-icons/bs"
 export default function Contact() {
-    const [formData, setFormData] = useState({ senderEmail: "", message: "" })
     const { ref } = useSectionInView("Contact", 1)
     const { theme } = useTheme()
-
-    const handleInputChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = event.target
-        setFormData({ ...formData, [name]: value })
-    }
-
-    const resetForm = () => {
-        setFormData({ senderEmail: "", message: "" })
-    }
 
     return (
         <motion.section
