@@ -3,6 +3,7 @@ import sneakersadda from "@/public/projects/sneakers-adda.png"
 import cnn from "@/public/projects/cnn.jpeg"
 import mongo from "@/public/projects/mongo.webp"
 import hospital from "@/public/projects/hospital.jpeg"
+import aiscrapper from "@/public/projects/ai-scrapper.jpeg"
 
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
@@ -37,6 +38,14 @@ export const links = [
 ] as const
 
 export const projectsData = [
+    { title: "AI-Scrapper",
+    description:
+        "AI-Scrapper - Scrape any website with a prompt",
+    tags: ["Python, Chromium, Play-Wright, BeautifulSoup, Proxy-Rotation, COpenAI"],
+    imageUrl: aiscrapper,
+    href: "https://github.com/sriabhinay556/AI-Scrapper/",
+    },
+
     {
         title: "Sneakers Adda",
         description:
