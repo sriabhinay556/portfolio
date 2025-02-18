@@ -24,6 +24,10 @@ export const links = [
         hash: "#projects",
     },
     {
+        name: "Blogs",
+        hash: "#blogs",
+    },
+    {
         name: "Skills",
         hash: "#skills",
     },
@@ -77,6 +81,34 @@ export const projectsData = [
     },
    
 ] as const
+
+export const blogsData = [
+    {
+        title: "The Rise of Large Language Models",
+        content: "Large Language Models (LLMs) like GPT-4 are revolutionizing industries by providing human-like text generation, enabling applications such as chatbots, content creation, and code assistance. As they evolve, ethical considerations like bias and misuse remain critical."
+      },
+      {
+        title: "Why Next.js is the Future of Web Development",
+        content: "Next.js combines the best of server-side rendering (SSR) and static site generation (SSG), offering incredible performance and SEO benefits. Its seamless integration with React and scalability make it a favorite for modern web apps."
+      },
+      {
+        title: "Breaking Down the Basics of AI Ethics",
+        content: "As AI becomes more ingrained in our daily lives, understanding ethical concerns like bias, data privacy, and transparency is essential. Developers and organizations must focus on creating responsible AI solutions that benefit society as a whole."
+      },
+      {
+        title: "How Kubernetes Simplifies DevOps",
+        content: "Kubernetes has become the standard for container orchestration, simplifying deployment, scaling, and management of applications. It empowers DevOps teams to automate processes and improve system reliability at scale."
+      },
+      {
+        title: "Exploring Rust for High-Performance Systems",
+        content: "Rust has gained popularity for its memory safety and concurrency without sacrificing performance. It's an excellent choice for building systems-level applications and projects requiring high reliability, like blockchain and game engines."
+      },
+      {
+        title: "The Future of AI in Software Development",
+        content: "AI tools like Copilot and ChatGPT are transforming software development by speeding up coding tasks and improving accuracy. As AI advances, developers are empowered to focus on problem-solving rather than repetitive coding tasks."
+      }
+]
+
 
 export const skillsData = [
     {
