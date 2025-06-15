@@ -67,7 +67,7 @@ export default function Header() {
                             quality="95"
                             priority={true}
                         /> */}
-                        ABHI<span className="text-stone-500 dark:text-main/75">.</span>
+                        ABI<span className="text-stone-500 dark:text-main/75">.</span>
                     </Link>
                 </motion.ul>
 

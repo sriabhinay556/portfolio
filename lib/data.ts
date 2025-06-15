@@ -25,6 +25,10 @@ export const links = [
         name: "Projects",
         hash: "#projects",
     },
+    // {
+    //     name: "Blogs",
+    //     hash: "#blogs",
+    // },
     {
         name: "Skills",
         hash: "#skills",
@@ -40,58 +44,115 @@ export const links = [
 ] as const
 
 export const projectsData = [
-    { title: "AI-Scrapper",
-    description:
-        "AI-Scrapper - Scrape any website with a prompt",
-    tags: ["Python, Play-Wright, BeautifulSoup, Proxy-Rotation, OpenAI"],
-    imageUrl: aiscrapper,
-    href: "https://github.com/sriabhinay556/AI-Scrapper/",
+    {
+      title: "AI-Scraper",
+      description:
+        "Engineered a prompt-driven scraping pipeline using LLM agents to automate data extraction across anti-bot websites. Achieved 80% reduction in token usage and boosted scraping efficiency for scalable data apps.",
+      tags: ["Python", "Playwright", "BeautifulSoup", "Proxy-Rotation", "OpenAI"],
+      imageUrl: aiscrapper,
+      href: "https://github.com/sriabhinay556/AI-Scrapper/",
     },
     {
-        title: "Go-Get-Gig",
-        description: "A job listing portal for highly relevant jobs to enhance hiring success.",
-        tags: ["Python, NLP, Vector DB, RAG, Embeddings, NextJS, React, AWS"],
-        imageUrl: gogetgig,
-        href: "https://github.com/sriabhinay556/",
+      title: "Go-Get-Gig",
+      description:
+        "Intelligent job-matching platform using RAG and DistilBERT. Real-time job feed ingestion with vector DB and HuggingFace models to deliver context-aware job recommendations.",
+      tags: ["Python", "NLP", "Vector DB", "RAG", "LangChain", "NextJS", "React", "AWS"],
+      imageUrl: gogetgig,
+      href: "https://github.com/sriabhinay556/",
     },
     {
-        title: "Sneakers Adda",
-        description:
-            "A dynamic e-commerce website leveraging NextJS framework and ReactJS as frontend library for real-time sneaker data",
-        tags: ["Next.js, React, Node.js, PostgreSQL, Tailwind CSS, Vercel, OpenAI"],
-        imageUrl: sneakersadda,
-        href: "http://sneakers-adda-v2.vercel.app/",
-    }, {
-        title: "CRUD Ops",
-        description:
-            "A full-stack web application, It demonstrates core CRUD operations with MongoDB, Server-side processing with Node.js",
-        tags: ["Next.js, React, Node.js, MongoDB, Tailwind CSS"],
-        imageUrl: mongo,
-        href: "https://github.com/sriabhinay556/CRUD_Ops_MERN",
-    }, {
-        title: "Human Face Emotion Detection",
-        description:
-            "Developed a Convolutional Neural Networks model to classify the human’s emotion through real time face footage.",
-        tags: ["Keras, VGG, Numpy, Pandas, Jupyter"],
-        imageUrl: cnn,
-        href: "https://github.com/sriabhinay556/",
-    }, {
-        title: "Hospital Administration",
-        description:
-            "Developed a standalone desktop-based app. Aimed at hospital admin tasks like login, patient details, record handling etc.",
-        tags: ["Java, File IO, Java Swing, Event Handling"],
-        imageUrl: hospital,
-        href: "https://github.com/sriabhinay556/window-app-for-hospital-administration/",
-    }, {
-        title: "Detecting cyber bullying using machine learning",
-        description:
-            "Random Forest classifier with 94.4% accuracy - predicting the probability of being bullied, detects and report cyber harassment. PUBLISHED ON RESEARCH GATE",
-        tags: ["Decision Tree, Logistic Regression, KNeighbors, GaussianNB, Random Forest classifiers"],
-        imageUrl: randomforest,
-        href: "https://www.researchgate.net/publication/360843927_Web-application_for_detecting_cyber_bullying_using_machine_learning_approach",
+      title: "Sneakers Adda",
+      description:
+        "E-commerce platform for sneaker shoppers using SSR and caching. Integrated PostgreSQL for real-time inventory and Tailwind UI for clean responsive experience.",
+      tags: ["Next.js", "React", "Node.js", "PostgreSQL", "Tailwind CSS", "Vercel", "OpenAI"],
+      imageUrl: sneakersadda,
+      href: "http://sneakers-adda-v2.vercel.app/",
     },
-   
-] as const
+    {
+        title: "Sentiment Analysis | Bi-LSTM & GloVe",
+        description:
+          "Bi-LSTM sentiment classifier with GloVe embeddings. Achieved 88% validation accuracy while mitigating overfitting in IMDB dataset.",
+        tags: ["Python", "Bi-LSTM", "GloVe", "TensorFlow", "Keras", "Matplotlib"],
+        // imageUrl: null,
+        href: "https://github.com/sriabhinay556/Sentiment-Analysis-Bi-LSTM-GloVe",
+      },
+      {
+        title: "Jitter Entropy Testing",
+        description:
+          "Capstone project: Automated entropy analysis pipeline using JitterEntropy library. Compared results across Docker, VM, BareMetal using Python and Bash scripts per NIST SP 800-90B.",
+        tags: ["Python", "Bash", "Linux", "Docker", "NIST SP 800-90B"],
+        // imageUrl: null,
+        href: "https://github.com/sriabhinay556/NIST_JitterAnalysis_Paper",
+      },
+      {
+        title: "Security Evaluation of LLM Code",
+        description:
+          "Analyzed LLM-generated C/C++ code using Valgrind, LDRA (CWE 3.4), and AFL fuzzing. Found memory issues and CWE violations to inform better AI-assisted code practices.",
+        tags: ["Valgrind", "LDRA", "AFL Fuzzing", "CWE 3.4", "Static Analysis"],
+        // imageUrl: null,
+        href: "https://github.com/sriabhinay556/",
+      },
+      {
+        title: "Reverse Engineering Course Projects",
+        description:
+          "Used IDA Pro, Ghidra, and WinDbg to analyze and reverse binaries. Reversed obfuscated binaries, debugged crash scenarios, and exploited stack overflows.",
+        tags: ["IDA Pro", "Ghidra", "WinDbg", "x64Dbg", "Reverse Engineering"],
+        // imageUrl: null,
+        href: "https://github.com/sriabhinay556/",
+      },
+    {
+      title: "Human Face Emotion Detection",
+      description:
+        "Built a CNN-based facial emotion classifier using VGG19 with 90% accuracy. Real-time inference via webcam using Flask API, OpenCV, and Docker.",
+      tags: ["Keras", "TensorFlow", "VGG19", "OpenCV", "Flask", "Docker"],
+      imageUrl: cnn,
+      href: "https://github.com/sriabhinay556/",
+    },
+    {
+      title: "Hospital Administration App",
+      description:
+        "Built a Java Swing-based desktop application for managing hospital login systems, patient records, and admin operations using event handling and file I/O.",
+      tags: ["Java", "Swing", "File IO", "Event Handling"],
+      imageUrl: hospital,
+      href: "https://github.com/sriabhinay556/window-app-for-hospital-administration/",
+    },
+    {
+      title: "Cyberbullying Detection Web App",
+      description:
+        "Built a machine learning classifier (Random Forest - 94.4% accuracy) to detect cyberbullying with web interface. Published on ResearchGate.",
+      tags: ["Random Forest", "Logistic Regression", "KNN", "GaussianNB", "ML"],
+      imageUrl: randomforest,
+      href: "https://www.researchgate.net/publication/360843927_Web-application_for_detecting_cyber_bullying_using_machine_learning_approach",
+    },
+  ] as const;
+  
+export const blogsData = [
+    {
+        title: "The Rise of Large Language Models",
+        content: "Large Language Models (LLMs) like GPT-4 are revolutionizing industries by providing human-like text generation, enabling applications such as chatbots, content creation, and code assistance. As they evolve, ethical considerations like bias and misuse remain critical."
+      },
+      {
+        title: "Why Next.js is the Future of Web Development",
+        content: "Next.js combines the best of server-side rendering (SSR) and static site generation (SSG), offering incredible performance and SEO benefits. Its seamless integration with React and scalability make it a favorite for modern web apps."
+      },
+      {
+        title: "Breaking Down the Basics of AI Ethics",
+        content: "As AI becomes more ingrained in our daily lives, understanding ethical concerns like bias, data privacy, and transparency is essential. Developers and organizations must focus on creating responsible AI solutions that benefit society as a whole."
+      },
+      {
+        title: "How Kubernetes Simplifies DevOps",
+        content: "Kubernetes has become the standard for container orchestration, simplifying deployment, scaling, and management of applications. It empowers DevOps teams to automate processes and improve system reliability at scale."
+      },
+      {
+        title: "Exploring Rust for High-Performance Systems",
+        content: "Rust has gained popularity for its memory safety and concurrency without sacrificing performance. It's an excellent choice for building systems-level applications and projects requiring high reliability, like blockchain and game engines."
+      },
+      {
+        title: "The Future of AI in Software Development",
+        content: "AI tools like Copilot and ChatGPT are transforming software development by speeding up coding tasks and improving accuracy. As AI advances, developers are empowered to focus on problem-solving rather than repetitive coding tasks."
+      }
+]
+
 
 export const skillsData = [
     {
@@ -251,12 +312,12 @@ export const experienceData = [
         icon: React.createElement(CgWorkAlt),
         date: "Aug 2022 – Dec 2022",
     },
-    {
-        title: "Certifications",
-        location: "Various Platforms",
-        description:
-            "AWS Cloud Essentials, Complete JavaScript from Udemy, Complete Python from Udemy.",
-        icon: React.createElement(SiSolidity),
-        date: "Ongoing",
-    },
+    // {
+    //     title: "Certifications",
+    //     location: "Various Platforms",
+    //     description:
+    //         "AWS Developer Associate, JavaScript from Udemy, Python from Udemy.",
+    //     icon: React.createElement(SiSolidity),
+    //     date: "Ongoing",
+    // },
 ] as const
