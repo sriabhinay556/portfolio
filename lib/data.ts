@@ -268,7 +268,7 @@ export const experienceData = [
         description:
             "Maintaining a solid 4 GPA with expertise in strong Computer Science concepts and Cybersecurity.",
         icon: React.createElement(LuGraduationCap),
-        date: "August 2022 - May 2024",
+        date: "August 2022 - May 2025",
     },
     {
         title: "Bachelor’s in Computer Science",
