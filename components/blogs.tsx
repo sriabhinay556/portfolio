@@ -4,8 +4,10 @@ import SectionHeading from "./section-heading"
 import { useSectionInView } from "@/lib/hooks"
 import { blogsData } from "@/lib/data";
 import Blog from "./blog";
+
 export default function Blogs() {
     const { ref } = useSectionInView("Blogs", 0.3)
+
     return (
         <>
          <section ref={ref} id="blogs">
@@ -20,5 +22,6 @@ export default function Blogs() {
             </div>
         </section>
         </>
+
     )
 }

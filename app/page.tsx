@@ -18,7 +18,7 @@ export default function Home() {
             <SectionDivider />  
             <About />
             <Projects />
-            <Blogs />
+            {/* <Blogs /> // feature to be added */}
             <Skills />
             <Experience />
             <Contact />

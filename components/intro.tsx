@@ -10,6 +10,7 @@ import { FaChessKnight } from "react-icons/fa6"
 import { HiDownload } from "react-icons/hi"
 import { useSectionInView } from "@/lib/hooks"
 import { useActiveSectionContext } from "@/context/active-section-context"
+import dva from "@/public/icons/dva.png"
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5)
@@ -30,7 +31,6 @@ export default function Intro() {
                     />
                 </motion.div>
             </div>
-
             <motion.p
                 className="text-center text-lotr dark:text-zinc-50 py-[2rem] !leading-[1.5] text-2xl sm:text-4xl"
                 initial={{ opacity: 0, y: 100 }}
@@ -51,16 +51,26 @@ export default function Intro() {
                 </span>
           
                 
+
+                <div className="mt-2 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
+                    <Image alt="AWS Developer Associate" src={dva} width={60} height={60} className="pr-2
+                    "></Image>
+                    <Link href="https://www.credly.com/badges/6f452292-fc21-4f4c-b472-30ce05321b8e/linked_in_profile" target="_blank">
+                        <h3 className="text-sm font-semibold hover:text-[#867f7a] hover:duration-[0.4s]">AWS Certified Developer Associate</h3>
+                    </Link>
+                </div>
+                
             </motion.p>
 
             <motion.div
-                className="flex flex-col lg:flex-row gap-5 justify-center items-center pt-[2rem]"
+                className="flex flex-col lg:flex-row gap-5 justify-center items-center"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                     delay: 0.1,
                 }}
             >
+                
                <div>
                     <Link
                         className="group flex items-center gap-2 px-[1.5rem] py-[1.1rem] font-bold text-darklord/80 hover:text-darklord dark:text-main/75
@@ -108,8 +118,11 @@ export default function Intro() {
                         <BsGithub />
                     </a>
                </div>
+
+           
                
             </motion.div>
+            
         </section>
     )
 }
