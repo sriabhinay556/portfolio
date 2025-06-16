@@ -13,7 +13,7 @@ export default function Projects() {
         <section ref={ref} id="projects">
             <SectionHeading>My Projects</SectionHeading>
             {/* With div below images will start on right */}
-            <div>
+            <div className="lg:grid lg:grid-cols-3 lg:gap-4 lg:px-32 px-8">
                 {projectsData.map((project, index) => (
                     <React.Fragment key={index}>
                         <Project {...project} />

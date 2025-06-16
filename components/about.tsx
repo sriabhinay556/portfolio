@@ -9,15 +9,16 @@ export default function About() {
 
     return (
         <motion.section
-            className="max-w-[50rem] text-center sm:mb-0"
+            className="max-w-[50rem] text-center px-8 sm:mb-0 sm:px-32 sm:max-w-none"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
             ref={ref}
             id="about"
+            
         >
             <SectionHeading>About Me</SectionHeading>
-            <div className="text-md bg-[#251e23e6] p-6 text-stone-300 dark:bg-black/20 hover:bg-[#292428] dark:hover:bg-black/40 max-w-[45rem] border border-beta rounded-lg overflow-hidden
+            <div className="text-sm sm:text-lg bg-[#251e23e6] p-4 text-stone-300 dark:bg-black/20 hover:bg-[#292428] dark:hover:bg-black/40 border border-beta rounded-lg overflow-hidden
                              relative sm:h-auto transition duration-700">
                 <div className="">
                     <p className="leading-relaxed text-justify">

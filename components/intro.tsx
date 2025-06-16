@@ -18,12 +18,12 @@ export default function Intro() {
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
     return (
-        <section className={"max-w-[51rem] text-center sm:mb-0 scroll-mt-[100rem]"} ref={ref} id="home">
+        <section className={"sm:px-24 text-center sm:mb-0 scroll-mt-[100rem]"} ref={ref} id="home">
             <div className="flex items-center justify-center py-[1rem]">
                 <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2, duration: 0.3 }}>
                     <Image
                         className="w-[9rem] h-[9rem] object-fill rounded-full shadow-xl border-lotr dark:border-darky/80 border-[0.05rem] self-center"
-                        src="/abhi.jpg"
+                        src="/Sriabhinay Kusuma.jpg"
                         alt="Sriabhinay Kusuma"
                         height="200"
                         width="200"
@@ -40,7 +40,7 @@ export default function Intro() {
                 Hey, I&apos;m Sriabhinay (<span className="text-darklord dark:text-main decoration-2">Abi</span>) Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">Computer Science grad </span>{" "}
                 with expertise in areas like
                 <div className="flex flex-row">
-                <div className="sm:w-1/3 w-1/4"></div>
+                <div className="sm:w-1/3 w-1/4 sm:mr-24"></div>
                 <div className="justify-center items-center bg-black/80 rounded-lg p-2 w-fit h-fit">
                 <span className="block ml-[0.5rem]">
                     <Typed
@@ -57,7 +57,7 @@ export default function Intro() {
                 </div>
 
 
-                <div className="mt-2 sm:mt-4 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
+                <div className="mt-12 sm:mt-24 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
                     <AWS_DVA />
                 </div>
 

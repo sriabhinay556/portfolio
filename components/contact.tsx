@@ -62,9 +62,9 @@ const fadeInAnimationVariants = {
                     placeholder="Your email address"
                     value={state.succeeded ? "" : undefined}
                     className="h-14 px-4 rounded-lg border border-darklord/40 dark:border-main/40 
-                             bg-white/40 dark:bg-black/50 text-darklord/80 dark:text-main/75 
+                             bg-white/40 dark:bg-black/50 text-[#805d39] dark:text-[#805d39] 
                              focus:outline-none focus:border-darklord/100 dark:focus:border-main/100
-                             placeholder:text-darklord/40 dark:placeholder:text-main/40
+                             placeholder:text-[#805d39] dark:placeholder:text-[#805d39]
                              backdrop-blur-[0.1rem] hover:border-darklord/100 dark:hover:border-main/100"
                 />
                 <ValidationError 
@@ -82,7 +82,7 @@ const fadeInAnimationVariants = {
                     maxLength={1000}
                     value={state.succeeded ? "" : message}
                     className="h-52 my-3 rounded-lg border border-darklord/40 dark:border-main/40 
-                             bg-white/40 dark:bg-black/50 text-darklord/80 dark:text-main/75 
+                             bg-white/40 dark:bg-black/50 text-[#805d39] dark:text-[#805d39] 
                              focus:outline-none focus:border-darklord/100 dark:focus:border-main/100
                              placeholder:text-darklord/40 dark:placeholder:text-main/40 p-4
                              backdrop-blur-[0.1rem] resize-none hover:border-darklord/100 dark:hover:border-main/100"
@@ -113,18 +113,18 @@ const fadeInAnimationVariants = {
                 )}
             </form>
 
-            <div className="w-full h-[1px] bg-stone-800 my-8"></div>
+            <div className="w-full h-[1px] bg-[#805d39] my-8"></div>
 
             <div className="mt-8 flex sm:flex-row flex-col items-center justify-center">
                 <div className="flex flex-row items-center justify-center">
-                    <h3 className="text-darklord/80 dark:text-main/75 dark:hover:text-main pr-2">
+                    <h3 className="text-darklord/80 dark:text-main/75 dark:hover:text-main pr-2 opacity-70">
                         Let's connect on LinkedIn
                     </h3>
                     <a 
                         className="flex items-center justify-center w-12 h-12 text-xl text-darklord/80 hover:text-darklord dark:text-main/75 dark:hover:text-main
                                 borderDevil dark:hover:border-main bg-white/40 dark:bg-black/50 rounded-full focus:scale-105 hover:scale-[1.2]
                                 hover:bg-white dark:hover:bg-darkyil active:scale-110 duration-custom ease-customBezier hover:translate-y-[-4px] backdrop-blur-[0.1rem]
-                                border-darklord/20 hover:border-darklord/50"
+                                border-darklord/20 hover:border-darklord/50 opacity-70"
                         href="https://www.linkedin.com/in/sriabhinay556/"
                         target="_blank"
                         aria-label="LinkedIn Profile"
@@ -134,14 +134,14 @@ const fadeInAnimationVariants = {
 
                 </div>
                 <div className="flex flex-row items-center justify-center">
-                    <h3 className="text-darklord/80 dark:text-main/75 dark:hover:text-main pl-4 pr-2">
+                    <h3 className="text-darklord/80 dark:text-main/75 dark:hover:text-main pl-4 pr-2 opacity-70">
                         or Email to
                     </h3>
                         <a
                             className="flex items-center gap-2 p-[1.15rem] text-lg lg:px-[1.5rem] lg:py-[0.2rem] text-darklord/80 hover:text-darklord dark:text-main/75 dark:hover:text-main
                                     borderDevil dark:hover:border-main bg-white/40 dark:bg-black/50 rounded-full focus:scale-110 hover:scale-[1.2]
                                     hover:bg-white dark:hover:bg-darkyil active:scale-110 duration-custom ease-customBezier hover:translate-y-[-4px] backdrop-blur-[0.1rem]
-                                    border-darklord/20 hover:border-darklord/50"
+                                    border-darklord/20 hover:border-darklord/50 opacity-70"
                             href="mailto:sriabhinay1@gmail.com"
                             target="_blank"
                         >

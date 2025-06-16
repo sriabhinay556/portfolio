@@ -10,6 +10,7 @@ import Contact from "@/components/contact"
 import ScottyTheRocket from "@/components/scotty"
 import Blogs from "@/components/blogs"
 import Education from "@/components/education"
+import Interests from "@/components/interests"
 export default function Home() {
     return (
         <main className="flex flex-col items-center px-4">
@@ -23,6 +24,7 @@ export default function Home() {
             <Skills />
             <Education />
             <Experience />
+            <Interests />
             <Contact />
             <ScottyTheRocket />
         </main>

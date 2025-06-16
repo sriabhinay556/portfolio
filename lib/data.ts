@@ -6,6 +6,12 @@ import hospital from "@/public/projects/hospital.jpeg"
 import aiscrapper from "@/public/projects/ai-scrapper.jpeg"
 import gogetgig from "@/public/projects/go-get-gig.jpeg"
 import randomforest from "@/public/projects/randomforest.jpeg"
+import picture1 from "@/public/pictures/Snapseed.jpg"
+import picture2 from "@/public/pictures/waterfall-2.jpg"
+import picture3 from "@/public/pictures/defcon.jpg"
+import picture4 from "@/public/pictures/blackhat.jpg"
+import picture5 from "@/public/pictures/group-1.jpg" 
+
 
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
@@ -38,6 +44,10 @@ export const links = [
         hash: "#experience",
     },
     {
+        name: "Interests",
+        hash: "#interests",
+    },
+    {
         name: "Contact",
         hash: "#contact",
     },
@@ -47,7 +57,7 @@ export const projectsData = [
     {
       title: "AI-Scraper",
       description:
-        "Engineered a prompt-driven scraping pipeline using LLM agents to automate data extraction across anti-bot websites. Achieved 80% reduction in token usage and boosted scraping efficiency for scalable data apps.",
+        "Developed a prompt-driven scraping pipeline with AI agents that automate data extraction across anti-bot websites. Achieved 80% reduction in token usage & boosted scraping efficiency for high scalability.",
       tags: ["Python", "Playwright", "BeautifulSoup", "Proxy-Rotation", "OpenAI"],
       imageUrl: aiscrapper,
       href: "https://github.com/sriabhinay556/AI-Scrapper/",
@@ -285,6 +295,34 @@ export const educationData = [
     date: "August 2018 - May 2022",
 },
 ] as const;
+export const interestsData = [
+  {
+    imageUrl: picture1,
+    title: "Photography",
+    description: "The world is gray — I capture it without color, just as it is."
+  },
+  {
+    imageUrl: picture2,
+    title: "Waterfalls",
+    description: "Hidden waterfalls. Hushed trails. North Alabama surprised me!"
+  },
+  {
+    imageUrl: picture3,
+    title: "DEFCON 2024",
+    description: "Vegas, DEFCON — the world’s biggest hacking conference. Glad I got to attend."
+  },
+  {
+    imageUrl: picture4,
+    title: "Black Hat",
+    description: "The business angle of cybersecurity. Attended Black Hat 2024 in Las Vegas."
+  },
+  {
+    imageUrl: picture5,
+    title: "My People",
+    description: "A close circle of tech-driven minds and shared life values."
+  }
+] as const
+
 
 export const experienceData = [
     
