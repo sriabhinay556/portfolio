@@ -100,7 +100,7 @@ export default function Project({ title, description, tags, href }: ProjectProps
                            px-6 py-6 transition duration-700
                            "
             >
-                    <Link href={href}>
+                    <Link href={href} target="_blank">
                     <div className="flex flex-col gap-4 text-center sm:text-left">
                         <h3 className="text-2xl font-semibold text-stone-500 dark:text-main/75 group-hover:dark:text-main group-hover:text-[#867f7a]">
                             {title}
