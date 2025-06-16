@@ -25,13 +25,13 @@ export const links = [
         name: "Projects",
         hash: "#projects",
     },
-    // {
-    //     name: "Blogs",
-    //     hash: "#blogs",
-    // },
     {
         name: "Skills",
         hash: "#skills",
+    },
+    {
+      name: "Education",
+      hash: "#education",
     },
     {
         name: "Experience",
@@ -259,25 +259,36 @@ export const skillsData = [
     
   
 ] as const
+export const educationData = [
+  {
+    title: "Master’s in Computer and Information Sciences (Cybersecurity)",
+    location: "University of Alabama in Huntsville",
+    description:
+        "Hands on experience in Reverse Engineering, Code Analysis and core Cybersecurity concepts. Maintaining a solid 4 GPA.",
+    icon: React.createElement(LuGraduationCap),
+    date: "August 2024 - May 2025",
+}, 
+{
+  title: "Master’s in Computer Science",
+  location: "University of Alabama in Huntsville",
+  description:
+      "Maintaining a solid 4 GPA with expertise in strong Computer Science concepts.",
+  icon: React.createElement(LuGraduationCap),
+  date: "August 2022 - May 2024",
+},
+{
+    title: "Bachelor’s in Computer Science",
+    location: "SR Engineering College, India",
+    description:
+        "Completed a Bachelor’s degree in Computer Science with a GPA of 3.3/4.0. Acquired foundational skills in various computer science domains.",
+    icon: React.createElement(LuGraduationCap),
+    date: "August 2018 - May 2022",
+},
+] as const;
 
 export const experienceData = [
     
-    {
-        title: "Master’s in Computer Science & Information Sciences",
-        location: "University of Alabama in Huntsville",
-        description:
-            "Maintaining a solid 4 GPA with expertise in strong Computer Science concepts and Cybersecurity.",
-        icon: React.createElement(LuGraduationCap),
-        date: "August 2022 - May 2025",
-    },
-    {
-        title: "Bachelor’s in Computer Science",
-        location: "SR Engineering College, India",
-        description:
-            "Completed a Bachelor’s degree in Computer Science with a GPA of 3.3/4.0. Acquired foundational skills in various computer science domains.",
-        icon: React.createElement(LuGraduationCap),
-        date: "August 2018 - May 2022",
-    },
+   
     {
         title: "Software Intern",
         location: "Garuna.tech",

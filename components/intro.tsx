@@ -5,12 +5,13 @@ import React from "react"
 import Link from "next/link"
 import Typed from "react-typed"
 import { motion } from "framer-motion"
-import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs"
+import { BsArrowRight, BsEnvelope, BsGithub, BsLinkedin, BsMailbox, BsMailbox2, BsMailbox2Flag, BsMailboxFlag } from "react-icons/bs"
 import { FaChessKnight } from "react-icons/fa6"
 import { HiDownload } from "react-icons/hi"
 import { useSectionInView } from "@/lib/hooks"
 import { useActiveSectionContext } from "@/context/active-section-context"
 import dva from "@/public/icons/dva.png"
+import AWS_DVA from "./AWS_DVA"
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5)
@@ -23,7 +24,7 @@ export default function Intro() {
                     <Image
                         className="w-[9rem] h-[9rem] object-fill rounded-full shadow-xl border-lotr dark:border-darky/80 border-[0.05rem] self-center"
                         src="/abhi.jpg"
-                        alt="Abhi"
+                        alt="Sriabhinay Kusuma"
                         height="200"
                         width="200"
                         quality="95"
@@ -32,34 +33,34 @@ export default function Intro() {
                 </motion.div>
             </div>
             <motion.p
-                className="text-center text-lotr dark:text-zinc-50 py-[2rem] !leading-[1.5] text-2xl sm:text-4xl"
+                className="text-center text-lotr dark:text-zinc-50 py-[2rem] !leading-[1.5] text-xl sm:text-3xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                Hey, I&apos;m Sriabhinay Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">Computer Science grad </span>{" "}
-                with knowledge in fields like
+                Hey, I&apos;m Sriabhinay (<span className="text-darklord dark:text-main decoration-2">Abi</span>) Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">Computer Science grad </span>{" "}
+                with expertise in areas like
+                <div className="flex flex-row">
+                <div className="sm:w-1/3 w-1/4"></div>
+                <div className="justify-center items-center bg-black/80 rounded-lg p-2 w-fit h-fit">
                 <span className="block ml-[0.5rem]">
-                    
                     <Typed
-                        className="ml-[0.5rem] text-darklord/80 dark:text-main/80"
-                        strings={["Full Stack", "AWS", "Machine Learning", "Frontend", "Security"]}
+                        className="ml-[0.5rem] text-[#149414] text-md font-mono tracking-wide" showCursor={true}
+                        strings={["> Full Stack", "> AWS", "> AI/ML", "> Frontend", "> Cybersecurity"]}
                         typeSpeed={120}
                         backSpeed={140}
                         loop
-                        // showCursor={false}
+                    // showCursor={false}
                     />
                 </span>
-          
-                
-
-                <div className="mt-2 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
-                    <Image alt="AWS Developer Associate" src={dva} width={60} height={60} className="pr-2
-                    "></Image>
-                    <Link href="https://www.credly.com/badges/6f452292-fc21-4f4c-b472-30ce05321b8e/linked_in_profile" target="_blank">
-                        <h3 className="text-sm font-semibold hover:text-[#867f7a] hover:duration-[0.4s]">AWS Certified Developer Associate</h3>
-                    </Link>
                 </div>
-                
+                <div className=""></div>
+                </div>
+
+
+                <div className="mt-2 sm:mt-4 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
+                    <AWS_DVA />
+                </div>
+
             </motion.p>
 
             <motion.div
@@ -70,8 +71,8 @@ export default function Intro() {
                     delay: 0.1,
                 }}
             >
-                
-               <div>
+
+                <div>
                     <Link
                         className="group flex items-center gap-2 px-[1.5rem] py-[1.1rem] font-bold text-darklord/80 hover:text-darklord dark:text-main/75
                                 dark:hover:text-main borderDevil dark:hover:border-main bg-white/40 dark:bg-black/80 rounded-full focus:scale-110 hover:scale-110
@@ -85,9 +86,9 @@ export default function Intro() {
                     >
                         Hire Me <BsArrowRight className="opacity-60 group-hover:translate-x-[0.3rem] transition group-hover:opacity-90" />
                     </Link>
-               </div>
-               <div className="flex gap-3">
-                <a
+                </div>
+                <div className="flex gap-3">
+                    <a
                         className="group flex items-center gap-2 px-[0.8rem] text-sm lg:text-lg lg:px-[1.5rem] lg:py-[1.1rem] font-bold text-darklord/80 hover:text-darklord dark:text-main/75 dark:hover:text-main
                                 borderDevil dark:hover:border-main bg-white/40 dark:bg-black/50 rounded-full focus:scale-110 hover:scale-110
                                 hover:bg-white dark:hover:bg-darkyil active:scale-105 duration-custom ease-customBezier hover:translate-y-[-4px] backdrop-blur-[0.1rem]
@@ -95,7 +96,7 @@ export default function Intro() {
                         href="https://sriabhinay556.github.io/Resume/Abhi_Kusuma_Resume.pdf"
                         target="_blank"
                     >
-                        Resume 
+                        Resume
                     </a>
                     <a
                         className="flex items-center gap-2 p-[1.15rem] text-lg lg:px-[1.5rem] lg:py-[0.2rem] text-darklord/80 hover:text-darklord dark:text-main/75 dark:hover:text-main
@@ -117,12 +118,22 @@ export default function Intro() {
                     >
                         <BsGithub />
                     </a>
-               </div>
+                    <a
+                        className="flex items-center gap-2 p-[1.15rem] text-lg lg:px-[1.5rem] lg:py-[0.2rem] text-darklord/80 hover:text-darklord dark:text-main/75 dark:hover:text-main
+                                borderDevil dark:hover:border-main bg-white/40 dark:bg-black/50 rounded-full focus:scale-110 hover:scale-[1.2]
+                                hover:bg-white dark:hover:bg-darkyil active:scale-110 duration-custom ease-customBezier hover:translate-y-[-4px] backdrop-blur-[0.1rem]
+                                border-darklord/20 hover:border-darklord/50"
+                        href="mailto:sriabhinay1@gmail.com"
+                        target="_blank"
+                    >
+                        <BsEnvelope />
+                    </a>
+                </div>
 
-           
-               
+
+
             </motion.div>
-            
+
         </section>
     )
 }

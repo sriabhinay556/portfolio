@@ -7,7 +7,7 @@ import SectionHeading from "./section-heading"
 import { motion } from "framer-motion"
 import { skillsData } from "@/lib/data"
 import { useSectionInView } from "@/lib/hooks"
-import dva from "@/public/icons/dva.png"
+import AWS_DVA from "./AWS_DVA"
 
 const fadeInAnimationVariants = {
     initial: {
@@ -60,11 +60,7 @@ export default function Skills() {
 
             
             <div className="mt-8 text-center text-stone-800 dark:text-gray-400 flex justify-center items-center group-hover:text-[#867f7a]">
-                    <Image alt="AWS Developer Associate" src={dva} width={100} height={100} className="pr-2 
-                    transition-transform duration-200 hover:scale-110"></Image>
-                    <Link href="https://www.credly.com/badges/6f452292-fc21-4f4c-b472-30ce05321b8e/linked_in_profile" target="_blank">
-                        <h3 className="text-sm font-semibold hover:text-[#867f7a] hover:duration-[0.4s]">AWS Certified Developer Associate</h3>
-                    </Link>
+                    <AWS_DVA />
                 </div>
             
         </section>
