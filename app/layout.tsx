@@ -6,6 +6,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Montserrat } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from '@vercel/analytics/next';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Analytics />
             <Footer />
             <Toaster
               position="top-right"
