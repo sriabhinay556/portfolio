@@ -1,0 +1,39 @@
+{
+  "optimized": [
+    {
+      "original": "Snapseed.jpg",
+      "optimized": "Snapseed.webp",
+      "alt": "Black and white photography by Sriabhinay Kusuma - Artistic monochrome image showcasing photography skills",
+      "title": "Photography"
+    },
+    {
+      "original": "blackhat.jpg",
+      "optimized": "blackhat.webp",
+      "alt": "Black Hat 2024 cybersecurity conference - Business and technical aspects of cybersecurity industry",
+      "title": "Black Hat"
+    },
+    {
+      "original": "defcon.jpg",
+      "optimized": "defcon.webp",
+      "alt": "DEFCON 2024 cybersecurity conference in Las Vegas - Professional networking at world's biggest hacking conference",
+      "title": "DEFCON 2024"
+    },
+    {
+      "original": "group-1.jpg",
+      "optimized": "group-1.webp",
+      "alt": "Group photo with tech professionals and friends - Personal network of technology enthusiasts and colleagues",
+      "title": "My People"
+    },
+    {
+      "original": "waterfall-2.jpg",
+      "optimized": "waterfall-2.webp",
+      "alt": "Hidden waterfall in North Alabama - Natural landscape photography showing outdoor exploration",
+      "title": "Waterfalls"
+    }
+  ],
+  "summary": {
+    "totalOriginalSize": 23121910,
+    "totalOptimizedSize": 321022,
+    "reduction": 98.6
+  }
+}

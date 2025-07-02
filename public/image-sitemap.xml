@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sriabhinay.vercel.app/</loc>
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/Snapseed.webp</image:loc>
+      <image:title>Black and white photography by Sriabhinay Kusuma</image:title>
+      <image:caption>Artistic monochrome image showcasing photography skills and creative vision</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/waterfall-2.webp</image:loc>
+      <image:title>Hidden waterfall in North Alabama</image:title>
+      <image:caption>Natural landscape photography showing outdoor exploration and nature appreciation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/defcon.webp</image:loc>
+      <image:title>DEFCON 2024 cybersecurity conference</image:title>
+      <image:caption>Professional networking at world's biggest hacking conference in Las Vegas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/blackhat.webp</image:loc>
+      <image:title>Black Hat 2024 cybersecurity conference</image:title>
+      <image:caption>Business and technical aspects of cybersecurity industry</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/group-1.webp</image:loc>
+      <image:title>Group photo with tech professionals</image:title>
+      <image:caption>Personal network of technology enthusiasts and colleagues</image:caption>
+    </image:image>
+  </url>
+</urlset>

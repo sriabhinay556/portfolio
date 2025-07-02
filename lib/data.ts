@@ -6,11 +6,11 @@ import hospital from "@/public/projects/hospital.jpeg"
 import aiscrapper from "@/public/projects/ai-scrapper.jpeg"
 import gogetgig from "@/public/projects/go-get-gig.jpeg"
 import randomforest from "@/public/projects/randomforest.jpeg"
-import picture1 from "@/public/pictures/Snapseed.jpg"
-import picture2 from "@/public/pictures/waterfall-2.jpg"
-import picture3 from "@/public/pictures/defcon.jpg"
-import picture4 from "@/public/pictures/blackhat.jpg"
-import picture5 from "@/public/pictures/group-1.jpg" 
+import picture1 from "@/public/pictures/optimized/Snapseed.webp"
+import picture2 from "@/public/pictures/optimized/waterfall-2.webp"
+import picture3 from "@/public/pictures/optimized/defcon.webp"
+import picture4 from "@/public/pictures/optimized/blackhat.webp"
+import picture5 from "@/public/pictures/optimized/group-1.webp" 
 
 
 import { CgWorkAlt } from "react-icons/cg"
@@ -271,7 +271,7 @@ export const skillsData = [
 ] as const
 export const educationData = [
   {
-    title: "Master’s in Computer and Information Sciences (Cybersecurity)",
+    title: "Master's in Computer and Information Sciences (Cybersecurity)",
     location: "University of Alabama in Huntsville",
     description:
         "Hands on experience in Reverse Engineering, Code Analysis and core Cybersecurity concepts. Maintaining a solid 4 GPA.",
@@ -279,7 +279,7 @@ export const educationData = [
     date: "August 2024 - May 2025",
 }, 
 {
-  title: "Master’s in Computer Science",
+  title: "Master's in Computer Science",
   location: "University of Alabama in Huntsville",
   description:
       "Maintaining a solid 4 GPA with expertise in strong Computer Science concepts.",
@@ -287,10 +287,10 @@ export const educationData = [
   date: "August 2022 - May 2024",
 },
 {
-    title: "Bachelor’s in Computer Science",
+    title: "Bachelor's in Computer Science",
     location: "SR Engineering College, India",
     description:
-        "Completed a Bachelor’s degree in Computer Science with a GPA of 3.3/4.0. Acquired foundational skills in various computer science domains.",
+        "Completed a Bachelor's degree in Computer Science with a GPA of 3.3/4.0. Acquired foundational skills in various computer science domains.",
     icon: React.createElement(LuGraduationCap),
     date: "August 2018 - May 2022",
 },
@@ -299,27 +299,32 @@ export const interestsData = [
   {
     imageUrl: picture1,
     title: "Photography",
-    description: "The world is gray — I capture it without color, just as it is."
+    description: "The world is gray — I capture it without color, just as it is.",
+    alt: "Black and white photography by Sriabhinay Kusuma - Artistic monochrome image showcasing photography skills and creative vision"
   },
   {
     imageUrl: picture2,
     title: "Waterfalls",
-    description: "Hidden waterfalls. Hushed trails. North Alabama surprised me!"
+    description: "Hidden waterfalls. Hushed trails. North Alabama surprised me!",
+    alt: "Hidden waterfall in North Alabama - Natural landscape photography showing outdoor exploration and nature appreciation"
   },
   {
     imageUrl: picture3,
     title: "DEFCON 2024",
-    description: "Vegas, DEFCON — the world’s biggest hacking conference. Glad I got to attend."
+    description: "Vegas, DEFCON — the world's biggest hacking conference. Glad I got to attend.",
+    alt: "DEFCON 2024 cybersecurity conference in Las Vegas - Professional networking at world's biggest hacking conference"
   },
   {
     imageUrl: picture4,
     title: "Black Hat",
-    description: "The business angle of cybersecurity. Attended Black Hat 2024 in Las Vegas."
+    description: "The business angle of cybersecurity. Attended Black Hat 2024 in Las Vegas.",
+    alt: "Black Hat 2024 cybersecurity conference - Business and technical aspects of cybersecurity industry"
   },
   {
     imageUrl: picture5,
     title: "My People",
-    description: "A close circle of tech-driven minds and shared life values."
+    description: "A close circle of tech-driven minds and shared life values.",
+    alt: "Group photo with tech professionals and friends - Personal network of technology enthusiasts and colleagues"
   }
 ] as const
 

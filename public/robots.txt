@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://sriabhinay.vercel.app/sitemap.xml
+Sitemap: https://sriabhinay.vercel.app/image-sitemap.xml

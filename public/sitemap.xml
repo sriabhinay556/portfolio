@@ -1,0 +1,110 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main homepage -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Profile/Hero Images -->
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/Snapseed.webp</image:loc>
+      <image:title>Sriabhinay Kusuma - Software Developer and Photographer</image:title>
+      <image:caption>Professional portrait of Sriabhinay Kusuma showcasing artistic black and white photography skills</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/waterfall-2.webp</image:loc>
+      <image:title>Sriabhinay Kusuma Photography - Hidden Waterfall North Alabama</image:title>
+      <image:caption>Nature photography by Sriabhinay Kusuma featuring hidden waterfall in North Alabama, demonstrating outdoor exploration and landscape photography skills</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#about</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Experience section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#experience</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Professional/Conference Images -->
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/defcon.webp</image:loc>
+      <image:title>Sriabhinay Kusuma at DEFCON 2024 Cybersecurity Conference</image:title>
+      <image:caption>Sriabhinay Kusuma attending DEFCON 2024, the world's largest hacking conference in Las Vegas, showcasing professional development in cybersecurity</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/blackhat.webp</image:loc>
+      <image:title>Sriabhinay Kusuma at Black Hat 2024 Security Conference</image:title>
+      <image:caption>Professional networking at Black Hat 2024 cybersecurity conference, demonstrating Sriabhinay Kusuma's involvement in information security industry</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Projects section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#projects</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Skills section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#skills</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Education section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#education</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact section -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#contact</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    
+    <!-- Personal/Networking Images -->
+    <image:image>
+      <image:loc>https://sriabhinay.vercel.app/pictures/optimized/group-1.webp</image:loc>
+      <image:title>Sriabhinay Kusuma with Technology Professionals Network</image:title>
+      <image:caption>Group photo featuring Sriabhinay Kusuma with fellow technology professionals and colleagues, showcasing professional networking and collaboration</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog section (if exists) -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#blog</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Portfolio/Gallery section (if exists) -->
+  <url>
+    <loc>https://sriabhinay.vercel.app/#portfolio</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

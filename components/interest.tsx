@@ -7,7 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 
 type InterestProps = typeof interestsData[number]
 
-export default function Interest({ imageUrl, title, description }: InterestProps) {
+export default function Interest({ imageUrl, title, description, alt }: InterestProps) {
     const ref = useRef<HTMLDivElement>(null)
     const { scrollYProgress } = useScroll({ target: ref, offset: ["0 1", "1.33 1"] })
 
@@ -24,9 +24,14 @@ export default function Interest({ imageUrl, title, description }: InterestProps
                 <div className="relative w-full h-2/3">
                     <Image
                         src={imageUrl}
-                        alt={title}
+                        alt={alt || `${title} - ${description} - Personal interest and hobby of Sriabhinay Kusuma`}
                         fill
                         className="object-cover w-full h-full"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        quality={85}
+                        loading="lazy"
+                        placeholder="blur"
+                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                     />
                 </div>
                 <div className="flex flex-col h-1/3 p-4 text-left">
