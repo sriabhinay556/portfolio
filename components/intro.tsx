@@ -32,13 +32,13 @@ export default function Intro() {
                     />
                 </motion.div>
             </div>
-            <motion.p
+            <motion.div
                 className="text-center text-lotr dark:text-zinc-50 py-[2rem] !leading-[1.5] text-xl sm:text-3xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                Hey, I&apos;m Sriabhinay (<span className="text-darklord dark:text-main decoration-2">Abi</span>) Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">Computer Science grad </span>{" "}
-                with expertise in areas like
+                Hey, I&apos;m Sriabhinay (<span className="text-darklord dark:text-main decoration-2">Abi</span>) Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">Computer Science</span>{" "}
+                grad with expertise in areas like
                 <div className="flex flex-row">
                 <div className="sm:w-1/3 w-1/4 sm:mr-24"></div>
                 <div className="justify-center items-center bg-black/80 rounded-lg p-2 w-fit h-fit">
@@ -61,7 +61,7 @@ export default function Intro() {
                     <AWS_DVA />
                 </div>
 
-            </motion.p>
+            </motion.div>
 
             <motion.div
                 className="flex flex-col lg:flex-row gap-5 justify-center items-center"

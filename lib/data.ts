@@ -265,9 +265,36 @@ export const skillsData = [
         href: "https://huggingface.co/",
         width: 40,
     },
-   
-    
-  
+    {
+        title: "Node.js",
+        imageUrl: "/icons/nodejs.svg",
+        href: "https://nodejs.org/",
+        width: 40,
+    },
+    {
+        title: "Express",
+        imageUrl: "/icons/express.svg",
+        href: "https://expressjs.com/",
+        width: 40,
+    },
+    {
+        title: "Django",
+        imageUrl: "/icons/django.svg",
+        href: "https://www.djangoproject.com/",
+        width: 40,
+    },
+    {
+        title: "Cucumber",
+        imageUrl: "/icons/cucumber.svg",
+        href: "https://cucumber.io/",
+        width: 40,
+    },
+    {
+        title: "REST APIs",
+        imageUrl: "/icons/api.svg",
+        href: "https://restfulapi.net/",
+        width: 40,
+    },
 ] as const
 export const educationData = [
   {
@@ -330,48 +357,86 @@ export const interestsData = [
 
 
 export const experienceData = [
-    
-   
     {
-        title: "Software Intern",
-        location: "Garuna.tech",
+        title: "Full Stack Developer",
+        location: "Saayam For All | Remote",
         description:
-       ` •	Delivered responsive web applications with seamless user interfaces using React, Python-based backend services.
-        •	Streamlined deployment workflow with GitHub Actions and leveraged Git for collaboration and version control efficiency.
-        •	Leveraged Cucumber for automated testing, reducing manual testing time by 40%. Enhanced overall delivery time by 30%. 
-        •	Enhanced the digital presence of multiple clients, with a 30% boost in customer engagement and a 20% boost in web traffic.`,
+        `• Developed core business backend logic with Java/Spring Boot microservices on AWS (EKS, Lambda) and ReactJS-based frontend.
+        • Implemented secure authentication and state management by integrating AWS Cognito on the Redux based frontend.
+        • Secured all microservices with AWS Cognito and a fine-grained Role-Based Access Control (RBAC) model.
+        • Architected an event-driven system using Apache Kafka; implemented a real-time notification feature with WebSockets.
+        • Improved user engagement by 20%, leveraged Redis caching to cut API response times by up to 30%.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "July 2025 – Present",
+    },
+    {
+        title: "Software Developer",
+        location: "National Institute of Standards and Technology | Huntsville, AL",
+        description:
+        `• Developed an automated pipeline to collect, pre-process and analyze CPU-generated jitter aligned with NIST SP 800-90B standards.
+        • Automation with Python/Bash scripts, evaluation across Docker, VM and BareMetal to assess secure environmental settings.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "Jan 2025 – May 2025",
+    },
+    {
+        title: "AI Developer",
+        location: "Garuna",
+        description:
+        `• Developed automated web scraping pipeline processing 1K+ articles monthly, reducing manual data collection by 50 hours/month.
+        • Created dashboard with real-time data access, and relevance scoring functionality deployed on cloud infrastructure.
+        • Built a BERT-based NLP classifier with 89% accuracy to perform sentiment analysis on 1100+ customer reviews, implementing clustering algorithms to identify products with negative feedback patterns.
+        • Fine-tuned LLaMA3-8B with QLoRA, adapter layers, and mixed-precision training, reducing trainable parameters from 8B to 3M, cutting training time by 30%, and boosting accuracy by 8% on 5000+ items.
+        • Developed RAG pipeline using LangChain, optimizing retrieval and chunking strategies, improving retrieval precision by 20% for domain-specific query processing.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "Aug 2024 – Dec 2024",
+    },
+    {
+        title: "Software Developer",
+        location: "TopMatch",
+        description:
+        `• Designed an intelligent job-matching platform leveraging retrieval-augmented generation (RAG) and pretrained DistilBERT.
+        • Integrated real-time job feed ingestion, vector embeddings, and LLM APIs for personalized recommendations.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "June 2024 – July 2024",
+    },
+    {
+        title: "Full Stack Developer",
+        location: "Archeed",
+        description:
+        `• Launched a job board for architects, connecting 1K+ students and professionals and driving 2.5x growth in monthly engagement.
+        • Implemented AI-powered semantic search and personalized job recommendations, reducing opportunity discovery time by 40%.
+        • Implemented role-based authentication and profiles for students, firms, and admins to streamline content submissions.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "Jan 2024 – May 2024",
+    },
+    {
+        title: "Frontend Developer",
+        location: "University of Alabama, Huntsville",
+        description:
+        `• Collaborated on a microservice-based recruitment system to optimize hiring workflows for university departments.
+        • Improved review productivity by 50%. Worked on faculty collaboration tool improving user experience and code maintenance.
+        • Implemented RESTful APIs and microservices architecture using Django and Python, ensuring scalable system design.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "July 2023 – Dec 2023",
+    },
+    {
+        title: "Graduate Teaching Assistant",
+        location: "University of Alabama, Huntsville",
+        description:
+        `• CS454/554 Cloud Computing - Lab Setup and Support: serving 50+ students, creating a practical cloud environment that increased successful project completions by 20%. Worked with professors to build impactful assignments for students.
+        • CS104 Python - Student Assistance and Grading: Guided 40+ students through in-person labs, offering individualized support that elevated assignment completion rates and improved average scores by 10%.
+        • CS317 Design and Analysis of Algorithms - Responsible for grading and in-person academic support for 60+ students. Assisted the professor in preparing coursework, assignments, and exams which enhancing class efficiency.`,
+        icon: React.createElement(CgWorkAlt),
+        date: "Aug 2022 - April 2023",
+    },
+    {
+        title: "Software Developer Intern",
+        location: "Garuna | India",
+        description:
+        `• Developed services that establish a strong online presence to businesses, driving a significant increase in revenue.
+        • Delivered digital solutions that enhanced product reach, improved user interaction and a strong boost in web traffic.
+        • Incorporated technologies into development process that boost delivery time by 30% by automated testing.`,
         icon: React.createElement(CgWorkAlt),
         date: "May 2021 – June 2022",
     },
-    {
-        title: "Graduate Assistant - Software Developement & Teaching",
-        location: "University of Alabama in Huntsville",
-        description: 
-        `
-        •	Collaborated on a microservice-based recruitment system to optimize hiring workflows for university departments.
-        •	Developed key features – application tracking, collaborative review. Improved review productivity by 50% by kanban interface.
-        •	Developed faculty collaboration tool in ReactJS, significantly improving user experience and code maintenance.
-        •	Instructed 100+ students in Algorithms, Programming courses. Created cloud environments, in-person labs, grading assistance.
-        •	Collaborated with professors to build impactful assignments that elevated work completion rates & spike average scores by 10%
-
-        `,
-        icon: React.createElement(CgWorkAlt),
-        date: "Jan 2023 – Dec 2023",
-    },
-    {
-        title: "Student Specialist IV - Grader",
-        location: "University of Alabama in Huntsville",
-        description:
-            "Graded assignments and provided academic support for the CS317 Design and Analysis of Algorithms course, assisting over 60 students.",
-        icon: React.createElement(CgWorkAlt),
-        date: "Aug 2022 – Dec 2022",
-    },
-    // {
-    //     title: "Certifications",
-    //     location: "Various Platforms",
-    //     description:
-    //         "AWS Developer Associate, JavaScript from Udemy, Python from Udemy.",
-    //     icon: React.createElement(SiSolidity),
-    //     date: "Ongoing",
-    // },
 ] as const

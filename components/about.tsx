@@ -22,21 +22,18 @@ export default function About() {
                              relative sm:h-auto transition duration-700">
                 <div className="">
                     <p className="leading-relaxed text-justify">
-                        I'm Sriabhinay Kusuma, a <span className="text-stone-500 dark:text-main/75">Computer Science MS</span> grad at University of Alabama (UAH) with a perfect 
-                        <span className="text-stone-500 dark:text-main/75"> 4.0 GPA</span>. I bring both theoretical knowledge and practical experience to the table. 
+                        I'm Sriabhinay Kusuma, a <span className="text-stone-500 dark:text-main/75">Computer Science MS</span> graduate from University of Alabama (UAH) with a perfect 
+                        <span className="text-stone-500 dark:text-main/75"> 4.0 GPA</span>. Currently working as a <span className="text-stone-500 dark:text-main/75">Full Stack Developer</span> at Saayam For All, I bring both theoretical knowledge and extensive practical experience to the table. 
                         
-                        During my Master's, I served as a Graduate Assistant, where I worked on <span className="text-stone-500 dark:text-main/75">Software Development</span>, managed Lab Setup and supported Course Curriculum. 
-                        
-                        My internship at Garuna.tech allowed me to develop hands-on skills in Software Development, exposed me
-                        from designing to shipping products.
+                        My journey spans from <span className="text-stone-500 dark:text-main/75">Software Developer Intern</span> at Garuna to <span className="text-stone-500 dark:text-main/75">AI Developer</span> roles, and now leading full-stack development with enterprise-level microservices architecture.
                     </p>
                 </div>
                 <div>
                     <p className="leading-relaxed text-justify pt-4">
-                        My technical expertise is broad, encompassing AI technologies in <span className="text-stone-500 dark:text-main/75">LLMs, Gen-AI, Deep Learning</span>, front-end technologies like <span className="text-stone-500 dark:text-main/75">JavaScript, React, and Next.js</span>,
-                        as well as backend and database management with <span className="text-stone-500 dark:text-main/75">Python, Java, Node.js, AWS</span>.
+                        My technical expertise encompasses cutting-edge AI technologies including <span className="text-stone-500 dark:text-main/75">LLMs, BERT, LLaMA3, RAG pipelines</span>, full-stack development with <span className="text-stone-500 dark:text-main/75">Java/Spring Boot, React, Next.js</span>,
+                        and enterprise cloud solutions using <span className="text-stone-500 dark:text-main/75">AWS, Lambda, Cognito, Kafka, Redis</span>.
                             
-                        I am eager to leverage my diverse skill set and passion for Software Development & <span className="text-stone-500 dark:text-main/75">AI integration</span> in innovative projects and collaborative teams.
+                        I'm passionate about building scalable systems and <span className="text-stone-500 dark:text-main/75">AI-powered solutions</span> that drive real business impact, with proven results like 20% user engagement improvements and 30% performance optimizations.
                     </p>
                 </div>
             </div>

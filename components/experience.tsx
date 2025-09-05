@@ -9,13 +9,15 @@ import { useSectionInView } from "@/lib/hooks"
 import { useTheme } from "@/context/theme-context"
 
 export default function Experience() {
-    const { ref } = useSectionInView("Experience", 0.3)
+    const { ref } = useSectionInView("Experience", 0.1)
     const { theme } = useTheme()
     const options = { triggerOnce: true }
 
     return (
-        <section className="overflow-x-clip" ref={ref} id="experience">
-            <SectionHeading>My Experience</SectionHeading>
+        <section className="overflow-x-clip" id="experience">
+            <div ref={ref}>
+                <SectionHeading>My Experience</SectionHeading>
+            </div>
             {/* We are setting lineColor in globals.css to avoid errors in console */}
             <VerticalTimeline lineColor="" animate={true}>
                 {experienceData.map((item, index) => (
